@@ -11,9 +11,7 @@ Cree un `struct` "Artwork" que contenga propiedades para el title, artist name, 
 
 Utilice una vista de tabla para mostrar una lista de obras de arte en su aplicación.
 
-Permita a los usuarios hacer clic en una obra de la lista para ver más detalles, incluida la imagen en un formato más grande.
-
-Implemente la funcionalidad para añadir nuevas obras de arte a la galería. (opcional)
+Permita a los usuarios hacer clic en una obra de la lista para ver más detalles, incluida la imagen en un formato más grande. (Opcional)
 
 
 ## Option 2: Personal Photo Album
@@ -24,9 +22,7 @@ Cree un struct llamado "ImageGallery" que contenga propiedades para the image, a
 
 Utilice una vista de tabla para mostrar una lista de álbumes en su aplicación.
 
-Permita a los usuarios hacer clic en un álbum en la lista para ver las imágenes en ese álbum.
-
-Implemente la funcionalidad para añadir nuevas imágenes y organizarlas en álbumes. (opcional)
+Permita a los usuarios hacer clic en un álbum en la lista para ver las imágenes en ese álbum.  (Opcional)
 
 ## Option 3: Fashion Catalog App
 
@@ -37,6 +33,4 @@ Cree un struct llamado "ClothingItem" que contenga propiedades para the name, pr
 
 Utilice una vista de tabla para mostrar la lista de prendas de vestir en su aplicación.
 
-Permita a los usuarios hacer clic en una prenda para ver más detalles, incluyendo la imagen en un formato más grande.
-
-Implemente la funcionalidad para añadir nuevas prendas de vestir al catálogo. (opcional)
+<b>Permita a los usuarios hacer clic en una prenda para ver más detalles, incluyendo la imagen en un formato más grande.</b>  (Opcional)
