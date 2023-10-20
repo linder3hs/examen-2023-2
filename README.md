@@ -1,27 +1,42 @@
-# Sistema de Gestión de una Tienda en Línea
+# TableView y POO
 
-Debes desarrollar un sistema de gestión para una tienda en línea utilizando el lenguaje de programación Swift. La tienda ofrece una variedad de productos, como ropa, electrónicos y alimentos. Los clientes pueden navegar por el catálogo de productos, agregar productos a su carrito de compras y realizar pedidos en línea. El sistema también debe gestionar el inventario de productos y mantener un registro de las ventas.
+## Option 1: Art Gallery App
 
-A continuación, se detallan los requisitos que debes cumplir:
-
-Define una clase Producto que tenga propiedades para almacenar la información de un producto, como el nombre, el precio, la cantidad disponible en el inventario y una descripción. Crea un inicializador para esta clase.
-
-Define una clase Cliente que incluya propiedades para el nombre del cliente, la dirección de envío y un identificador único. Crea un inicializador para esta clase.
-
-Crea una clase CarritoDeCompras que permita a un cliente agregar productos a su carrito de compras, eliminar productos y calcular el total de la compra. El carrito de compras debe mantener una lista de productos.
-
-Define una clase Pedido que contenga una lista de productos que un cliente ha ordenado, junto con la fecha y hora de la orden. Debe ser capaz de calcular el precio total del pedido.
-
-Crea una clase TiendaEnLinea que gestione el inventario de productos y registre las ventas. Debe permitir agregar productos al inventario, procesar pedidos (actualizando el inventario y registrando la venta) y mantener un registro de las ventas realizadas.
-
-Implementa un programa principal en Swift que simule el proceso de compra en línea. Crea algunos productos, clientes, agrega productos a carritos de compras, procesa pedidos y muestra los detalles de las ventas.
-
-Comenta adecuadamente tu código y asegúrate de que sea legible y siga las mejores prácticas de programación en Swift.
-
-Evaluaré tu solución en función de la funcionalidad, la organización del código y la claridad de la implementación.
-
-Nota: Si es necesario, puedes utilizar las funcionalidades y estructuras de datos propias de Swift, como arreglos y diccionarios, para gestionar los productos, clientes y pedidos. También puedes asumir que tienes una interfaz de usuario básica que interactúa con estas clases para las operaciones.
+Tu aplicación debe mostrar una variedad de obras de arte, cada una con una imagen representativa, título, nombre del artista y descripción. Los usuarios deben ser capaces de explorar la lista de obras de arte y ver detalles ampliados de cada obra de arte al hacer clic en ellos.
 
 
+- Instrucciones:
+
+Cree un `struct` "Artwork" que contenga propiedades para el title, artist name, description, and a representative image, de la obra.
+
+Utilice una vista de tabla para mostrar una lista de obras de arte en su aplicación.
+
+Permita a los usuarios hacer clic en una obra de la lista para ver más detalles, incluida la imagen en un formato más grande.
+
+Implemente la funcionalidad para añadir nuevas obras de arte a la galería. (opcional)
 
 
+## Option 4: Personal Photo Album
+Tu aplicación debe permitir a los usuarios agregar imágenes con descripciones y organizarlas en álbumes. Se utilizará una vista de tabla para mostrar la lista de álbumes y miniaturas de las imágenes. Al seleccionar un álbum, los usuarios deben poder ver las imágenes en un formato más grande.
+
+Instrucciones:
+Cree un struct llamado "ImageGallery" que contenga propiedades para the image, author, a description, release_year, price and category.
+
+Utilice una vista de tabla para mostrar una lista de álbumes en su aplicación.
+
+Permita a los usuarios hacer clic en un álbum en la lista para ver las imágenes en ese álbum.
+
+Implemente la funcionalidad para añadir nuevas imágenes y organizarlas en álbumes. (opcional)
+
+## Option 5: Fashion Catalog App
+
+Tu aplicación debe mostrar una lista de prendas de vestir, cada una con una imagen representativa, name, price, y description. Utilice una vista de tabla para mostrar la lista de prendas de vestir y permita a los usuarios ver detalles ampliados de cada prenda, incluyendo imágenes más grandes.
+
+Instrucciones:
+Cree un struct llamado "ClothingItem" que contenga propiedades para the name, price, description, category, isNew and an image of the clothing item.
+
+Utilice una vista de tabla para mostrar la lista de prendas de vestir en su aplicación.
+
+Permita a los usuarios hacer clic en una prenda para ver más detalles, incluyendo la imagen en un formato más grande.
+
+Implemente la funcionalidad para añadir nuevas prendas de vestir al catálogo. (opcional)
