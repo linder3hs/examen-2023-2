@@ -16,7 +16,7 @@ Permita a los usuarios hacer clic en una obra de la lista para ver más detalles
 Implemente la funcionalidad para añadir nuevas obras de arte a la galería. (opcional)
 
 
-## Option 4: Personal Photo Album
+## Option 2: Personal Photo Album
 Tu aplicación debe permitir a los usuarios agregar imágenes con descripciones y organizarlas en álbumes. Se utilizará una vista de tabla para mostrar la lista de álbumes y miniaturas de las imágenes. Al seleccionar un álbum, los usuarios deben poder ver las imágenes en un formato más grande.
 
 Instrucciones:
@@ -28,7 +28,7 @@ Permita a los usuarios hacer clic en un álbum en la lista para ver las imágene
 
 Implemente la funcionalidad para añadir nuevas imágenes y organizarlas en álbumes. (opcional)
 
-## Option 5: Fashion Catalog App
+## Option 3: Fashion Catalog App
 
 Tu aplicación debe mostrar una lista de prendas de vestir, cada una con una imagen representativa, name, price, y description. Utilice una vista de tabla para mostrar la lista de prendas de vestir y permita a los usuarios ver detalles ampliados de cada prenda, incluyendo imágenes más grandes.
 
